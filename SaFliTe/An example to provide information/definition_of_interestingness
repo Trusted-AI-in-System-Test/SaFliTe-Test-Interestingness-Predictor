@@ -1,0 +1,6 @@
+When the UAV is in LOITER mode, it must maintain 
+a constant location, heading, and altitude.
+If a test case causes the UAV to fail to maintain 
+a constant location, heading, or altitude while 
+in LOITER mode, then this test case is considered 
+an interesting test case.

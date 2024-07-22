@@ -1,0 +1,13 @@
+Each test case represents inputting a user 
+command into the control system, changing 
+environmental factors, or altering system 
+configurations.
+The values for each test case will be 
+randomly assigned. The following are the test cases 
+that need to be analysed:\n
+
+test case 1: MAV_CMD_DO_REPOSITION 
+test case 2: ATC_RAT_RLL_FLTD
+test case 3: MAV_CMD_DO_CHANGE_SPEED
+test case 4: SIM_FLOW_POS_Z
+test case 5: MAV_CMD_POWER_OFF_INITIATED 
