@@ -1,6 +1,5 @@
 logs/
 tmp/
-.env
 venv/
 snippets/results/
 snippets/generated_tests/
