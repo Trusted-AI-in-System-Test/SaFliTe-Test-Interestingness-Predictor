@@ -1,0 +1,51 @@
+drone:
+  mission_file: case_studies/mission1.plan
+  params:
+    MIS_TAKEOFF_ALT: 1.0
+    MIS_YAW_ERR: 12.0
+    MPC_YAW_MODE: 0
+    NAV_ACC_RAD: 0.5
+    NAV_DLL_ACT: 0
+    NAV_MC_ALT_RAD: 0.5
+    NAV_RCL_ACT: 3
+    SDLOG_PROFILE: 7
+  port: 14541
+simulation:
+  headless: true
+  obstacles:
+  - position:
+      r: 342.0719715774143
+      x: -3.2177619470036265
+      y: 12.264977957584613
+      z: 0
+    size:
+      h: 19.574499926729597
+      l: 12.446375872675684
+      w: 15.521326137364387
+  - position:
+      r: 212.94600680725318
+      x: 8.982021879512684
+      y: 28.877950072479145
+      z: 0
+    size:
+      h: 16.49977885459418
+      l: 11.372983394792442
+      w: 10.414607046602564
+  - position:
+      r: 124.30878697598008
+      x: 19.99974643126457
+      y: 12.202102551043717
+      z: 0
+    size:
+      h: 21.31146282073848
+      l: 12.260581594428437
+      w: 13.17565589176413
+  simulator: ros
+test:
+  commands:
+  - mode: 3
+    r: 0
+    timestamp: 1
+    x: 0
+    y: 0
+    z: 0.5
